@@ -1,28 +1,21 @@
-import React from 'react'
-import About from './components/about/About'
-import Experience from './components/experience/Experience'
-import Header from './components/header/Header'
-import Nav from './components/nav/Nav'
-import Services from './components/services/Services'
-import Portfolio from './components/portfolio/Portfolio'
-import Testimonial from './components/testimonial/Testimonial'
-import Contact from './components/contact/Contact'
-import Footer from './components/footer/Footer'
+import React from 'react';
+import { ThemeProvider } from 'styled-components';
+import GlobalStyles from './GlobalStyles';
+import Index from './views/Index';
 
-const App = () => {
+const theme = {
+  colors: {
+    header: '#fff',
+  },
+};
+
+function App() {
   return (
-    <>
-        <Header />
-        <Nav />
-        <About />
-        <Experience />
-        <Services />
-        <Portfolio />
-        <Testimonial />
-        <Contact />
-        <Footer />
-    </>
-  )
+    <ThemeProvider theme={theme}>
+      <GlobalStyles />
+      <Index />
+    </ThemeProvider>
+  );
 }
 
-export default App
+export default App;
