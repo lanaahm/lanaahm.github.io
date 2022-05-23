@@ -1,8 +1,8 @@
-import React from "react";
-import "./experience.css";
-import { BsPatchCheckFill } from "react-icons/bs";
+import React from 'react';
+import './experience.css';
+import { BsPatchCheckFill } from 'react-icons/bs';
 
-const Experience = () => {
+function Experience() {
   return (
     <section id="experience">
       <h5>What Skills I Have</h5>
@@ -12,7 +12,7 @@ const Experience = () => {
         {/* frontend */}
         <div className="experience__frontend">
           <h3>Frontend</h3>
-          <dev className="experience__content">
+          <div className="experience__content">
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
@@ -55,14 +55,14 @@ const Experience = () => {
                 <small className="text-light">Experience</small>
               </div>
             </article>
-          </dev>
+          </div>
         </div>
         {/* frontend */}
 
         {/* backend */}
         <div className="experience__backend">
           <h3>Backend</h3>
-          <dev className="experience__content">
+          <div className="experience__content">
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
@@ -105,14 +105,14 @@ const Experience = () => {
                 <small className="text-light">Experience</small>
               </div>
             </article>
-          </dev>
+          </div>
         </div>
         {/* backend */}
 
         {/* datascientist */}
         <div className="experience__datascientist">
           <h3>Data Scientist</h3>
-          <dev className="experience__content">
+          <div className="experience__content">
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
@@ -155,12 +155,12 @@ const Experience = () => {
                 <small className="text-light">Experience</small>
               </div>
             </article>
-          </dev>
+          </div>
         </div>
         {/* datascientist */}
       </div>
     </section>
   );
-};
+}
 
 export default Experience;

@@ -1,0 +1,102 @@
+.container.contact__container {
+  background-color: var(--color-bg-variant);
+  padding: 3rem;
+  border-radius: 1.2rem;
+  display: grid;
+  grid-template-columns: 30% 58%;
+  gap: 12%;
+}
+.contact__options {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  flex-direction: column;
+  gap: 1.2rem;
+  align-items: end;
+}
+.contact__option {
+  padding: 0.7rem 1.2rem;
+  border-radius: 1.2rem;
+  text-align: center;
+  border: 1px solid transparent;
+  transition: var(--transition);
+}
+.contact__option-icon {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.contact__option a {
+  margin-top: 0.7rem;
+  display: inline-block;
+  font-size: 0.8rem;
+
+  padding: 0.45rem 1.2rem;
+  border: 2px solid var(--color-primary-variant);
+  border-radius: 0.5rem;
+}
+
+/* ================= FORM ================== */
+.container.contact__container form {
+  display: flex;
+  gap: 1.2rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+}
+.container.contact__container form input[name='name'],
+.container.contact__container form input[name='email'] {
+  width: calc(50% - 0.6rem);
+}
+
+.container.contact__container form textarea {
+  min-height: 30%;
+  height: auto;
+}
+
+.container.contact__container form button {
+  height: 50px;
+}
+
+.container.contact__container form input,
+.container.contact__container form textarea {
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background: transparent;
+  border: 2px solid var(--color-primary-variant);
+  resize: none;
+  color: var(--color-white);
+}
+
+/* =============== MEDIA QUERIES (MEDIUM DEVICES) =============== */
+@media screen and (max-width: 991.98px) {
+  .contact__options {
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    padding-bottom: 12px;
+    border-bottom: 2px solid var(--color-primary-variant);
+  }
+  .container.contact__container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+/* =============== MEDIA QUERIES (SMALL DEVICES) =============== */
+@media screen and (max-width: 767.98px) {
+  .contact__options {
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    gap: 0;
+  }
+  .container.contact__container {
+    width: var(--container-width-sm);
+  }
+  .contact__option {
+    padding: 0.7rem 0.2rem;
+  }
+  .container.contact__container form button {
+    width: 100%;
+  }
+  .contact__option a {
+    padding: 8px 4px;
+  }
+}
