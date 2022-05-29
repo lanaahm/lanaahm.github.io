@@ -32,7 +32,7 @@
     "build": "react-scripts build",
     "lin-fix": "eslint . --fix",
     "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build -b master"
+    "deploy": "gh-pages -d build -b main"
   },
   "eslintConfig": {
     "extends": [

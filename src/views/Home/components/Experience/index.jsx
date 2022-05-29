@@ -22,7 +22,6 @@ const Experience = ({ experience }) => {
           <div className="experience" key={`${index.toString()}`}>
             <h3>{category}</h3>
             <div className="experience__content">
-              {console.log(data !== undefined ? data[index].createdAt : null)}
               {data
                 .sort((a, b) => (a.createdAt > b.createdAt ? 1 : -1))
                 .map((x, i) => (
