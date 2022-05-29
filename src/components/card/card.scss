@@ -1,0 +1,26 @@
+@use '../../scss/abstracts/' as *;
+
+.card {
+  padding: 30px;
+  margin-bottom: 30px;
+  background-color: $color-white;
+  box-shadow: $dropdown-box-shadow;
+  border-radius: $borderRadius;
+  color: $color-text-light;
+
+  &__header {
+    margin: 16px;
+    display: flex;
+    justify-content: space-between;
+    button {
+      color: var(--color-white);
+      background: var(--color-bg);
+      border: none;
+    }
+    button:hover {
+      color: white;
+      background: #2c2c6c;
+      border: none;
+    }
+  }
+}

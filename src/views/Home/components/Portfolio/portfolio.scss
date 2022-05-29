@@ -1,0 +1,71 @@
+.portfolio__container {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(172px, 1fr));
+  gap: 1.2rem;
+}
+
+.portfolio__item {
+  background: var(--color-bg-variant);
+  padding: 1.3rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: flex-start;
+  padding-bottom: 4.4rem;
+}
+.portfolio__item:hover {
+  border-color: var(--color-primary-variant);
+}
+.portfolio__item-image {
+  border-radius: 1.5rem;
+  overflow: hidden;
+  width: 100%;
+}
+.portfolio__item-image img {
+  max-width: 290px;
+  max-height: 180px;
+  height: 180px;
+}
+.portfolio__item-detail {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.portfolio__item h3 {
+  margin: 1.2rem 0 2rem;
+  margin-bottom: 0.6rem;
+}
+.portfolio__item p {
+  font-size: 14px;
+}
+.portfolio__item-cta {
+  display: flex;
+  gap: 1rem;
+  line-height: 1;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  width: calc(100% - 2.6rem);
+  margin: 2rem auto;
+}
+
+/* =============== MEDIA QUERIES (MEDIUM DEVICES) =============== */
+@media screen and (max-width: 991.98px) {
+  .portfolio__container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.2rem;
+  }
+}
+
+/* =============== MEDIA QUERIES (SMALL DEVICES) =============== */
+@media screen and (max-width: 767.98px) {
+  .portfolio__container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+}

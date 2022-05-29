@@ -1,0 +1,54 @@
+@use '../../scss/abstracts/' as *;
+
+$main-color-blue: #349eff;
+$second-color-blue: #62b4ff;
+
+$main-color-red: #fb0b12;
+$second-color-red: #ff4a6b;
+
+$main-color-cyan: #10d4d2;
+$second-color-cyan: #2ae9e6;
+
+$main-color-green: #019707;
+$second-color-green: #4caf50;
+
+$main-color-orange: #ffa41b;
+$second-color-orange: #ff9900;
+
+.badge {
+  padding: 6px 11px;
+  color: $color-white;
+  border-radius: 10px;
+
+  &-danger {
+    background-color: $second-color-red;
+
+    &:hover {
+      background-color: $main-color-red;
+    }
+  }
+
+  &-success {
+    background-color: $second-color-green;
+
+    &:hover {
+      background-color: $main-color-green;
+    }
+  }
+
+  &-primary {
+    background-color: $second-color-blue;
+
+    &:hover {
+      background-color: $main-color-blue;
+    }
+  }
+
+  &-warning {
+    background-color: $second-color-orange;
+
+    &:hover {
+      background-color: $main-color-orange;
+    }
+  }
+}

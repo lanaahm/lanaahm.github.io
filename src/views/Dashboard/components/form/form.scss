@@ -1,0 +1,61 @@
+@use '../../../../scss/abstracts/' as *;
+
+.form-wrapper {
+  form {
+    color: #333333;
+    font-size: 14px;
+
+    .input-wrapper {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+
+      label,
+      input {
+        display: block;
+        width: 100%;
+      }
+
+      img {
+        margin-bottom: 18px;
+        object-fit: contain;
+      }
+
+      input {
+        padding: 10px;
+        border: solid 1px #bdc7d8;
+
+        &.category {
+          width: 90%;
+        }
+      }
+
+      button {
+        width: calc(10% - 6px);
+        background: #1f1f38;
+        color: white;
+        margin: 0 3px;
+        padding: 6px;
+        font-size: 18px;
+        line-height: 0;
+      }
+    }
+
+    .button {
+      background-color: $color-bg;
+      font-weight: bold;
+      padding: 12px 15px;
+      color: #ffffff;
+    }
+
+    .errorMsg {
+      color: #cc0000;
+      margin-bottom: 12px;
+    }
+
+    .sucessMsg {
+      color: #6b8e23;
+      margin-bottom: 10px;
+    }
+  }
+}

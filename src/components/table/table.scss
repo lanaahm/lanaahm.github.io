@@ -1,0 +1,73 @@
+@use '../../scss/abstracts/' as *;
+
+.table-wrapper {
+  overflow-y: auto;
+
+  table {
+    width: 100%;
+    min-width: 400px;
+    border-spacing: 0;
+  }
+
+  thead {
+    background-color: $color-bg-sidebar;
+  }
+
+  tr {
+    text-align: left;
+  }
+
+  th,
+  td {
+    text-transform: capitalize;
+    padding: 15px 10px;
+  }
+
+  td:last-child > * {
+    margin: 0 5px;
+  }
+
+  tbody > tr:hover {
+    background-color: $color-bg;
+    color: $color-white;
+  }
+}
+
+.table__pagination {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.table__pagination-item {
+  ~ .table__pagination-item {
+    margin-left: 10px;
+  }
+
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  &.active {
+    background-color: var(--main-color);
+    color: $color-white;
+    font-weight: 600;
+
+    &:hover {
+      background-color: $color-bg;
+      color: $color-white;
+      font-weight: 600;
+    }
+  }
+
+  &:hover {
+    color: $color-white;
+    background-color: $color-bg;
+  }
+}
