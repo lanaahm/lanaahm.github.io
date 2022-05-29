@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.65983dd6.css",
-    "main.js": "/static/js/main.d97a19b9.js",
+    "main.js": "/static/js/main.ddcda525.js",
     "static/media/boxicons.svg": "/static/media/boxicons.f80cc694af79b88fde78.svg",
     "static/media/me-about-images.jpg": "/static/media/me-about-images.b904a77711d11d3d562f.jpg",
     "static/media/me.png": "/static/media/me.ffa12e6c2f9ed5e856e9.png",
@@ -13,10 +13,10 @@
     "static/media/CV_Maulana Ahmad Maliki.pdf": "/static/media/CV_Maulana Ahmad Maliki.a660a5b298e63542fca9.pdf",
     "index.html": "/index.html",
     "main.65983dd6.css.map": "/static/css/main.65983dd6.css.map",
-    "main.d97a19b9.js.map": "/static/js/main.d97a19b9.js.map"
+    "main.ddcda525.js.map": "/static/js/main.ddcda525.js.map"
   },
   "entrypoints": [
     "static/css/main.65983dd6.css",
-    "static/js/main.d97a19b9.js"
+    "static/js/main.ddcda525.js"
   ]
 }
