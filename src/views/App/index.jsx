@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-wrap-multilines */
 import React from 'react';
 import { ThemeProvider } from 'styled-components';
-import { Routes, Route, BrowserRouter } from 'react-router-dom';
+import { Routes, Route, HashRouter as Routers } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import GlobalStyles from './GlobalStyles';
 import Home from '../Home';
@@ -24,7 +24,7 @@ const theme = {
 const App = () => (
   <Provider store={store}>
     <ThemeProvider theme={theme}>
-      <BrowserRouter>
+      <Routers>
         <GlobalStyles />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -48,7 +48,7 @@ const App = () => (
           </Route>
           <Route path="*" element={<NotFound />} />
         </Routes>
-      </BrowserRouter>
+      </Routers>
     </ThemeProvider>
   </Provider>
 );
