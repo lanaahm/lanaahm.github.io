@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-wrap-multilines */
 import React from 'react';
 import { ThemeProvider } from 'styled-components';
-import { Routes, Route, HashRouter as Routers } from 'react-router-dom';
+import { Routes, Route, BrowserRouter as Routers } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import GlobalStyles from './GlobalStyles';
 import Home from '../Home';
