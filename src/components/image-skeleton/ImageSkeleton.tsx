@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { FiImage } from 'react-icons/fi';
 import './image-skeleton.scss';
 
@@ -17,12 +17,18 @@ const ImageSkeleton: React.FC<ImageSkeletonProps> = ({
   borderRadius = '1.5rem',
   className = ''
 }) => {
+  const imgRef = useRef<HTMLImageElement>(null);
   const [loaded, setLoaded] = useState(false);
   const [hasError, setHasError] = useState(false);
 
   useEffect(() => {
-    setLoaded(false);
     setHasError(false);
+    const img = imgRef.current;
+    if (img && img.complete && img.naturalWidth > 0) {
+      setLoaded(true);
+    } else {
+      setLoaded(false);
+    }
   }, [src]);
 
   const showPlaceholder = !src || hasError;
@@ -48,6 +54,7 @@ const ImageSkeleton: React.FC<ImageSkeletonProps> = ({
       )}
       {!showPlaceholder && (
         <img
+          ref={imgRef}
           src={src}
           alt={alt}
           className={`image-skeleton__img ${loaded ? 'is-loaded' : ''}`.trim()}

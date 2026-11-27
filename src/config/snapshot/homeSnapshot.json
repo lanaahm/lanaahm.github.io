@@ -24,10 +24,10 @@
           "github": "https://github.com/lanaahm/Machine-Learning-Exercise/tree/main/Fashion%20Product%20Images%20Classification"
         }
       ],
-      "image": "/thumbnails/fashion-product-classification.jpg",
+      "image": "https://quwjvmjsvncuuaxpwcqe.supabase.co/storage/v1/object/public/lanaahm's%20Bucket/thumbnails/fashion-product-classification.jpg",
       "title": "Fashion Product Image Classification",
       "created_at": "2026-11-27T03:43:39.506421+00:00",
-      "updated_at": "2026-11-27T06:48:02.355976+00:00",
+      "updated_at": "2026-11-27T07:58:41.320529+00:00",
       "description": "Classification of fashion product Images by product category"
     },
     {
@@ -37,10 +37,10 @@
           "github": "https://github.com/lanaahm/Machine-Learning-Exercise/tree/main/Diabetes%20Classification"
         }
       ],
-      "image": "/thumbnails/diabetes-classification.jpg",
+      "image": "https://quwjvmjsvncuuaxpwcqe.supabase.co/storage/v1/object/public/lanaahm's%20Bucket/thumbnails/diabetes-classification.jpg",
       "title": "Diabetes Classification",
       "created_at": "2026-11-27T03:43:40.506421+00:00",
-      "updated_at": "2026-11-27T06:48:02.355976+00:00",
+      "updated_at": "2026-11-27T07:58:31.48147+00:00",
       "description": "Diabetes classification using the knn algorithm, random forest, and adaboost."
     },
     {
@@ -50,10 +50,10 @@
           "github": "https://github.com/lanaahm/Machine-Learning-Exercise/tree/main/Sentiment%20Analysis%20Of%20Drug%20Reviews"
         }
       ],
-      "image": "/thumbnails/sentiment-analysis-drug-reviews.jpg",
+      "image": "https://quwjvmjsvncuuaxpwcqe.supabase.co/storage/v1/object/public/lanaahm's%20Bucket/thumbnails/sentiment-analysis-drug-reviews.jpg",
       "title": "Sentiment Analysis of Drug Reviews",
       "created_at": "2026-11-27T03:43:41.506421+00:00",
-      "updated_at": "2026-11-27T06:48:02.355976+00:00",
+      "updated_at": "2026-11-27T07:58:55.543461+00:00",
       "description": "NLP Sentiment Analysis Review based on UCI Machine learning repository dataset review"
     },
     {
@@ -63,10 +63,10 @@
           "github": "https://github.com/lanaahm/Machine-Learning-Exercise/tree/main/Wind%20Power%20Prediction"
         }
       ],
-      "image": "/thumbnails/wind-power-prediction.jpg",
+      "image": "https://quwjvmjsvncuuaxpwcqe.supabase.co/storage/v1/object/public/lanaahm's%20Bucket/thumbnails/wind-power-prediction.jpg",
       "title": "Wind Power Prediction",
       "created_at": "2026-11-27T03:43:42.506421+00:00",
-      "updated_at": "2026-11-27T06:48:02.355976+00:00",
+      "updated_at": "2026-11-27T07:59:13.116671+00:00",
       "description": "Wind Power Prediction Using The LSTM Algorithm, Dataset Kaggle.Com"
     },
     {
@@ -76,10 +76,10 @@
           "github": "https://github.com/lanaahm/Machine-Learning-Exercise/tree/main/Rock%20Paper%20Scissors%20Images%20Clasification"
         }
       ],
-      "image": "/thumbnails/rock-paper-scissors-classification.jpg",
+      "image": "https://quwjvmjsvncuuaxpwcqe.supabase.co/storage/v1/object/public/lanaahm's%20Bucket/thumbnails/rock-paper-scissors-classification.jpg",
       "title": "Rock Paper Scissors Images Clasification",
       "created_at": "2026-11-27T03:43:43.506421+00:00",
-      "updated_at": "2026-11-27T06:48:02.355976+00:00",
+      "updated_at": "2026-11-27T07:58:45.800268+00:00",
       "description": "Classification of Games Scissors, Stone and Paper"
     },
     {
@@ -89,10 +89,10 @@
           "simaba-filkom.ub.ac.id": "https://simaba-filkom.ub.ac.id/"
         }
       ],
-      "image": "/thumbnails/website-pk2maba-filkom-2019.jpg",
+      "image": "https://quwjvmjsvncuuaxpwcqe.supabase.co/storage/v1/object/public/lanaahm's%20Bucket/thumbnails/website-pk2maba-filkom-2019.jpg",
       "title": "Website PK2MABA FILKOM 2019",
       "created_at": "2026-11-27T03:43:44.506421+00:00",
-      "updated_at": "2026-11-27T06:48:02.355976+00:00",
+      "updated_at": "2026-11-27T07:59:11.614274+00:00",
       "description": "Introduction Of Campus Life Students Of Computer Science The University Of Brawijaya"
     },
     {
@@ -102,10 +102,10 @@
           "google": "https://google.com/"
         }
       ],
-      "image": "/thumbnails/website-kampung-budaya-2019.jpg",
+      "image": "https://quwjvmjsvncuuaxpwcqe.supabase.co/storage/v1/object/public/lanaahm's%20Bucket/thumbnails/website-kampung-budaya-2019.jpg",
       "title": "Website Kampung Budaya Brawijaya University 2019",
       "created_at": "2026-11-27T03:43:45.506421+00:00",
-      "updated_at": "2026-11-27T06:48:02.355976+00:00",
+      "updated_at": "2026-11-27T07:59:09.777056+00:00",
       "description": "\"Kampung Budaya\" is a student work program to introduce various local customs and characteristics in Indonesia."
     },
     {
@@ -115,10 +115,10 @@
           "bersi.ko": "https://bersi.ko.com/"
         }
       ],
-      "image": "/thumbnails/bersiko.jpg",
+      "image": "https://quwjvmjsvncuuaxpwcqe.supabase.co/storage/v1/object/public/lanaahm's%20Bucket/thumbnails/bersiko.jpg",
       "title": "Bersi.ko",
       "created_at": "2026-11-27T03:43:46.506421+00:00",
-      "updated_at": "2026-11-27T06:48:02.355976+00:00",
+      "updated_at": "2026-11-27T07:58:25.19672+00:00",
       "description": "Created a dynamic website \"Bersi.ko\" to monitor the workmanship of shoe washing services"
     },
     {
@@ -128,10 +128,10 @@
           "github": "https://github.com/lanaahm/book-store"
         }
       ],
-      "image": "/thumbnails/storybook.jpg",
+      "image": "https://quwjvmjsvncuuaxpwcqe.supabase.co/storage/v1/object/public/lanaahm's%20Bucket/thumbnails/storybook.jpg",
       "title": "Storybook",
       "created_at": "2026-11-27T03:43:47.506421+00:00",
-      "updated_at": "2026-11-27T06:48:02.355976+00:00",
+      "updated_at": "2026-11-27T07:58:58.911453+00:00",
       "description": "Created an android-based application \"Book Store\" to find a list of books and where these books are traded"
     }
   ],
