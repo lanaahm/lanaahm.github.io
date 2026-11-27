@@ -29,7 +29,7 @@ Use this skill before deploying or modifying CI/CD for `https://lanaahm.github.i
    - `.github/workflows/deploy.yml` copies `build/index.html` to `build/404.html` so direct refreshes on `/login`, `/dashboard/*`, and `/error/:code` work on GitHub Pages.
 
 ## Deploy Paths
-- **Automated (Recommended):** Push to `development` (or run **Actions -> Build & Deploy to GitHub Pages**) using GitHub Repository Secrets.
+- **Automated (Recommended):** Open a Pull Request from `development` -> `main` (runs `typecheck`, `test`, and `build` CI checks); merging to `main` deploys automatically to GitHub Pages via `actions/deploy-pages@v4` using GitHub Repository Secrets.
 - **Manual (only when user explicitly requests):**
   ```bash
   npm run deploy

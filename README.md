@@ -67,8 +67,8 @@ This repository includes `.github/workflows/deploy.yml`, which automatically run
    - `REACT_APP_EMAILJS_TEMPLATE_ID`
    - `REACT_APP_EMAILJS_PUBLIC_KEY`
 3. Open **Settings -> Pages**:
-   - **Source:** **GitHub Actions** *(no force-push to protected `main` branch required)*
-4. Push to `development` (or trigger **Actions -> Build & Deploy to GitHub Pages -> Run workflow**).
+   - **Source:** **GitHub Actions**
+4. Open a Pull Request from `development` -> `main` (CI runs `typecheck`, `test`, and `build` automatically). Merging into `main` triggers the live deployment to `https://lanaahm.github.io/`.
 
 ### Option B — Manual Local Deploy (`gh-pages`)
 Ensure `.env` is configured locally and you are on the `development` branch (never `main`), then run:
