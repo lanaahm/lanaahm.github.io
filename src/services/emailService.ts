@@ -5,14 +5,14 @@ export interface EmailClient {
     serviceID: string,
     templateID: string,
     form: HTMLFormElement,
-    publicKey?: string
+    options?: { publicKey?: string } | string
   ) => Promise<EmailJSResponseStatus>;
 }
 
 const getEmailConfig = () => ({
-  serviceId: process.env.REACT_APP_EMAILJS_SERVICE_ID || '',
-  templateId: process.env.REACT_APP_EMAILJS_TEMPLATE_ID || '',
-  publicKey: process.env.REACT_APP_EMAILJS_PUBLIC_KEY || ''
+  serviceId: import.meta.env.REACT_APP_EMAILJS_SERVICE_ID || '',
+  templateId: import.meta.env.REACT_APP_EMAILJS_TEMPLATE_ID || '',
+  publicKey: import.meta.env.REACT_APP_EMAILJS_PUBLIC_KEY || ''
 });
 
 /**
@@ -27,5 +27,5 @@ export const sendContactEmail = async (
   }
 
   const { serviceId, templateId, publicKey } = getEmailConfig();
-  return emailClient.sendForm(serviceId, templateId, formElement, publicKey);
+  return emailClient.sendForm(serviceId, templateId, formElement, { publicKey });
 };

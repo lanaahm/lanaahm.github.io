@@ -1,12 +1,13 @@
 import React from 'react';
 import { fireEvent, render, screen } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
+import { vi } from 'vitest';
 import ErrorPage from './ErrorPage';
 
 describe('ErrorPage', () => {
   test('renders 404 defaults when no props are passed', () => {
     render(
-      <MemoryRouter>
+      <MemoryRouter future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
         <ErrorPage />
       </MemoryRouter>
     );
@@ -16,7 +17,7 @@ describe('ErrorPage', () => {
 
   test('renders dynamic catalog metadata for 500 and fallback for unknown codes', () => {
     const { rerender } = render(
-      <MemoryRouter>
+      <MemoryRouter future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
         <ErrorPage code={500} />
       </MemoryRouter>
     );
@@ -24,7 +25,7 @@ describe('ErrorPage', () => {
     expect(screen.getByText('Internal Server Error')).toBeInTheDocument();
 
     rerender(
-      <MemoryRouter>
+      <MemoryRouter future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
         <ErrorPage code={418} />
       </MemoryRouter>
     );
@@ -33,9 +34,9 @@ describe('ErrorPage', () => {
   });
 
   test('supports custom overrides and retry handler', () => {
-    const handleRetry = jest.fn();
+    const handleRetry = vi.fn();
     render(
-      <MemoryRouter>
+      <MemoryRouter future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
         <ErrorPage code={503} title="Maintenance" onRetry={handleRetry} />
       </MemoryRouter>
     );

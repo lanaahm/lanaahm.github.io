@@ -1,4 +1,4 @@
-import type { AnyAction } from '@reduxjs/toolkit';
+import type { UnknownAction } from '@reduxjs/toolkit';
 import homeSnapshot from '../../snapshot/homeSnapshot.json';
 import type { AppState, HomePayload } from '../../../types/domain';
 import { readHomeCache } from '../../../utils/homeCache';
@@ -6,6 +6,10 @@ import { ActionType } from '../action/globalActionType';
 
 interface InternalAppState extends AppState {
   pendingRequests: number;
+}
+
+interface PayloadAction extends UnknownAction {
+  value?: unknown;
 }
 
 const getInitialPayload = (): HomePayload => {
@@ -30,11 +34,11 @@ const initState: InternalAppState = {
 
 const rootReducer = (
   state: InternalAppState = initState,
-  action: AnyAction = { type: '' }
+  action: PayloadAction = { type: '' }
 ): InternalAppState => {
   switch (action.type) {
     case ActionType.SET_ACTIVATE_NAV:
-      return { ...state, activeNav: action.value };
+      return { ...state, activeNav: String(action.value ?? '#') };
     case ActionType.IS_LOADING: {
       const nextPending = action.value
         ? state.pendingRequests + 1
@@ -42,7 +46,7 @@ const rootReducer = (
       return { ...state, pendingRequests: nextPending, isLoading: nextPending > 0 };
     }
     case ActionType.IS_LOGIN:
-      return { ...state, isLogin: action.value };
+      return { ...state, isLogin: Boolean(action.value) };
     case ActionType.HYDRATE_HOME_PAYLOAD: {
       const payload = action.value as HomePayload;
       return {
@@ -55,15 +59,15 @@ const rootReducer = (
       };
     }
     case ActionType.SET_EMPLOYEEHISTORY:
-      return { ...state, employeeHistory: action.value };
+      return { ...state, employeeHistory: (action.value as AppState['employeeHistory']) || [] };
     case ActionType.SET_CERTIFICATION:
-      return { ...state, certification: action.value };
+      return { ...state, certification: (action.value as AppState['certification']) || [] };
     case ActionType.SET_EXPERIENCE:
-      return { ...state, experience: action.value };
+      return { ...state, experience: (action.value as AppState['experience']) || [] };
     case ActionType.SET_PORTFOLIO:
-      return { ...state, portfolio: action.value };
+      return { ...state, portfolio: (action.value as AppState['portfolio']) || [] };
     case ActionType.SET_SETTINGS:
-      return { ...state, settings: action.value };
+      return { ...state, settings: (action.value as AppState['settings']) || [] };
     default:
       return state;
   }

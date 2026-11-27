@@ -67,8 +67,7 @@ This repository includes `.github/workflows/deploy.yml`, which automatically run
    - `REACT_APP_EMAILJS_TEMPLATE_ID`
    - `REACT_APP_EMAILJS_PUBLIC_KEY`
 3. Open **Settings -> Pages**:
-   - **Source:** Deploy from a branch
-   - **Branch:** `main` / `/ (root)`
+   - **Source:** **GitHub Actions** *(no force-push to protected `main` branch required)*
 4. Push to `development` (or trigger **Actions -> Build & Deploy to GitHub Pages -> Run workflow**).
 
 ### Option B — Manual Local Deploy (`gh-pages`)

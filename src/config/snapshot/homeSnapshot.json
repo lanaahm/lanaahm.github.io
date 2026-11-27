@@ -10,7 +10,7 @@
       "medium": "https://medium.com/",
       "linkedin": "https://www.linkedin.com/in/lanaahm",
       "created_at": "2026-11-27T03:25:00.430327+00:00",
-      "updated_at": "2026-11-27T05:50:51.672426+00:00",
+      "updated_at": "2026-11-27T06:58:31.870621+00:00",
       "description": "I am a Data Engineer at Indonesia Financial Group (IFG) specializing in enterprise-scale data platforms, cloud data engineering, and distributed systems. I have architected 65+ Apache Airflow DAGs, a 3-tier Google BigQuery Lakehouse across 10+ subsidiaries, and high-throughput Python ingestion pipelines processing 120M+ records. Previously at Grab Indonesia and GoFleet (Astra & Gojek), I led large-scale cloud migrations, ETL optimization, and analytics solutions. I hold a Bachelor's degree in Informatics Engineering from Universitas Brawijaya and thrive on turning complex data challenges into reliable, scalable systems.",
       "number_phone": "6281234474958",
       "timeline_orientation": "horizontal"

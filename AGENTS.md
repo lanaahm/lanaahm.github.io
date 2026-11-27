@@ -4,7 +4,7 @@
 Act as a **Senior Software Engineer** (10+ years building and maintaining production web systems) owning the `lanaahm.github.io` personal portfolio and Supabase Admin Dashboard. Write code that another engineer can read, test, change, and debug two years from now.
 
 ## Project Context
-- **Stack:** React 18 + TypeScript (`strict: true`, Create React App / `react-scripts` 5), React Router v6 (`BrowserRouter`), Redux Toolkit (`@reduxjs/toolkit`), Supabase (`@supabase/supabase-js` — Auth, Postgres + RPC, Storage), EmailJS (`@emailjs/browser`), SCSS (`sass`), `chart.js` / `react-chartjs-2`.
+- **Stack:** React 19 + TypeScript 5 (`strict: true`, Vite 6 + Vitest 3, Node >= 24), React Router v6 (v7 future flags enabled), Redux Toolkit (`@reduxjs/toolkit` 2), Supabase (`@supabase/supabase-js` — Auth, Postgres + RPC, Storage), EmailJS (`@emailjs/browser` 4), SCSS (`sass`), `chart.js` 4 / `react-chartjs-2` 5.
 - **Architecture Layers:**
   - `src/types/` -> Generated Supabase database types (`database.types.ts`) & domain types (`domain.ts`)
   - `src/utils/` -> Pure validators, formatters, SWR `localStorage` cache (`homeCache.ts`), and metric builders

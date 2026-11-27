@@ -1,4 +1,4 @@
-import type { AnyAction, ThunkDispatch } from '@reduxjs/toolkit';
+import type { ThunkDispatch, UnknownAction } from '@reduxjs/toolkit';
 import { LoginCredentials, signInWithEmail, signOutUser } from '../../../services/authService';
 import {
   createTableRow,
@@ -11,7 +11,7 @@ import type { AppState, AuthUserProfile, HomePayload, TableName } from '../../..
 import { clearHomeCache, readHomeCache, writeHomeCache } from '../../../utils/homeCache';
 import { ActionType, ActionTypeValue } from './globalActionType';
 
-type AppThunkDispatch = ThunkDispatch<AppState, unknown, AnyAction>;
+type AppThunkDispatch = ThunkDispatch<AppState, unknown, UnknownAction>;
 
 const TABLE_TO_ACTION: Record<TableName, ActionTypeValue> = {
   employee_history: ActionType.SET_EMPLOYEEHISTORY,
