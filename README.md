@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# Maulana Ahmad Maliki — Portfolio & Admin Dashboard (`lanaahm.github.io`)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Personal portfolio website hosted on **GitHub Pages** (`https://lanaahm.github.io/`) with an integrated **Supabase-backed Admin Dashboard** for managing career history, certifications, skills, portfolio projects, and site settings.
+
+## Tech Stack
+- **Frontend:** React 18, TypeScript (`strict: true`), React Router v6, Redux Toolkit, SCSS
+- **Backend & Storage:** Supabase (PostgreSQL + RLS, Auth, Storage, Postgres RPC)
+- **Contact Form:** EmailJS (`@emailjs/browser`)
+- **Charts & UI:** `chart.js`, `react-chartjs-2`, `react-circular-progressbar`, `react-icons`
+- **Performance:** 1x Supabase RPC (`get_home_payload`), `localStorage` SWR cache, build-time static snapshot (`homeSnapshot.json`), `preconnect` hints, and `Cache-Control: 86400` on Storage uploads
+
+---
+
+## Local Development
+
+1. **Install dependencies:**
+   ```bash
+   npm install --legacy-peer-deps
+   ```
+2. **Configure environment variables:**
+   Copy `.env.example` to `.env` (`.env` is gitignored and must never be committed):
+   ```bash
+   cp .env.example .env
+   ```
+   Fill in your Supabase & EmailJS values from **Supabase Dashboard -> Project Settings -> API**:
+   ```env
+   REACT_APP_SUPABASE_URL=https://<project-ref>.supabase.co
+   REACT_APP_SUPABASE_ANON_KEY=<your-anon-public-key>
+   REACT_APP_SUPABASE_STORAGE_BUCKET="lanaahm's Bucket"
+
+   REACT_APP_EMAILJS_SERVICE_ID=<your-service-id>
+   REACT_APP_EMAILJS_TEMPLATE_ID=<your-template-id>
+   REACT_APP_EMAILJS_PUBLIC_KEY=<your-public-key>
+   ```
+3. **Run locally:**
+   ```bash
+   npm start
+   ```
 
 ## Available Scripts
+- `npm start` — Start local dev server (`http://localhost:3000`)
+- `npm run typecheck` — Run strict TypeScript check (`tsc --noEmit`)
+- `npm test` — Run Jest + React Testing Library unit tests
+- `npm run snapshot` — Refresh `src/config/snapshot/homeSnapshot.json` from Supabase RPC
+- `npm run build` — Runs `prebuild` snapshot + creates optimized production bundle in `build/`
+- `npm run deploy` — Manual deploy of `build/` to `main` branch via `gh-pages`
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Deploying to GitHub Pages (Safe Supabase Credential Setup)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Security Model (Why `ANON_KEY` is Safe, and What Must Never Be Exposed)
+- **Safe in GitHub Pages (`REACT_APP_SUPABASE_ANON_KEY`):** Designed for browser clients. Security is enforced at the database & storage layer via **Supabase Row Level Security (RLS)**:
+  - Public (`anon`) can **only `SELECT`** public portfolio tables & read public Storage objects.
+  - Only **authenticated** admin users (signed in via Supabase Auth at `/login`) can `INSERT`, `UPDATE`, or `DELETE` records or upload files.
+- **NEVER expose `SUPABASE_SERVICE_ROLE_KEY`:** Never put the service role key in `.env` as `REACT_APP_*` or in GitHub Actions build env vars, because CRA inlines all `REACT_APP_*` variables into the public JS bundle.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Option A — Automated Deploy via GitHub Actions (Recommended)
+This repository includes `.github/workflows/deploy.yml`, which automatically runs `typecheck`, `test`, `prebuild` snapshot, `build`, adds `404.html` SPA fallback, and publishes `build/` to the `main` branch.
 
-### `npm test`
+1. Open your GitHub repository -> **Settings -> Secrets and variables -> Actions -> New repository secret**.
+2. Add these 6 secrets:
+   - `REACT_APP_SUPABASE_URL`
+   - `REACT_APP_SUPABASE_ANON_KEY`
+   - `REACT_APP_SUPABASE_STORAGE_BUCKET` (`lanaahm's Bucket`)
+   - `REACT_APP_EMAILJS_SERVICE_ID`
+   - `REACT_APP_EMAILJS_TEMPLATE_ID`
+   - `REACT_APP_EMAILJS_PUBLIC_KEY`
+3. Open **Settings -> Pages**:
+   - **Source:** Deploy from a branch
+   - **Branch:** `main` / `/ (root)`
+4. Push to `development` (or trigger **Actions -> Build & Deploy to GitHub Pages -> Run workflow**).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Option B — Manual Local Deploy (`gh-pages`)
+Ensure `.env` is configured locally and you are on the `development` branch (never `main`), then run:
+```bash
+npm run typecheck && CI=true npm test -- --watchAll=false && npm run deploy
+```
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Routes
+- `/` — Public Portfolio (Header, About + Certifications Preview, Career Journey + Detail Modal, Technical Skills, Portfolio, Contact, Footer)
+- `/login` — Supabase Auth Admin Login
+- `/dashboard` — Protected Overview Dashboard
+- `/dashboard/experience` — CRUD for Career History, Certifications, and Technical Skills
+- `/dashboard/portfolio` — CRUD for Portfolio Projects
+- `/dashboard/settings` — Profile, Bio, Socials, CV PDF Upload, and Career Timeline Orientation (`horizontal` / `vertical`)
+- `/error/:code` & `*` — Dynamic HTTP Error Page (`404`, `403`, `500`, etc.)

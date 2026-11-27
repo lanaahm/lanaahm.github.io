@@ -67,6 +67,11 @@
       padding-left: 20%;
       transition: color 0.3s ease-in-out;
       color: $color-white;
+      background: transparent;
+      border: 0;
+      font: inherit;
+      width: 100%;
+      text-align: left;
 
       @include tablet {
         padding-left: $mobileSpacing;

@@ -1,0 +1,42 @@
+.ui-skeleton {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  vertical-align: middle;
+
+  &--dark {
+    background: linear-gradient(
+      110deg,
+      rgba(31, 31, 56, 0.9) 25%,
+      rgba(44, 44, 108, 0.95) 45%,
+      rgba(77, 181, 255, 0.24) 55%,
+      rgba(44, 44, 108, 0.95) 65%,
+      rgba(31, 31, 56, 0.9) 85%
+    );
+    background-size: 220% 100%;
+    border: 1px solid rgba(77, 181, 255, 0.16);
+    animation: ui-skeleton-shimmer 1.6s ease-in-out infinite;
+  }
+
+  &--light {
+    background: linear-gradient(
+      110deg,
+      #eceff4 25%,
+      #f8fafc 45%,
+      #e2e8f0 55%,
+      #f8fafc 65%,
+      #eceff4 85%
+    );
+    background-size: 220% 100%;
+    animation: ui-skeleton-shimmer 1.6s ease-in-out infinite;
+  }
+}
+
+@keyframes ui-skeleton-shimmer {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: -100% 0;
+  }
+}

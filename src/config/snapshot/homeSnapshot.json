@@ -1,0 +1,612 @@
+{
+  "settings": [
+    {
+      "id": "0",
+      "name": "Maulana Ahmad Maliki",
+      "email": "maulanamaliki2007@gmail.com",
+      "cv_url": "https://quwjvmjsvncuuaxpwcqe.supabase.co/storage/v1/object/public/lanaahm's%20Bucket/cv/Maulana-Ahmad-Maliki-Resume.pdf",
+      "github": "https://github.com/lanaahm",
+      "kaggle": "https://www.kaggle.com/lanaahm",
+      "medium": "https://medium.com/",
+      "linkedin": "https://www.linkedin.com/in/lanaahm",
+      "created_at": "2026-11-27T03:25:00.430327+00:00",
+      "updated_at": "2026-11-27T05:50:51.672426+00:00",
+      "description": "I am a Data Engineer at Indonesia Financial Group (IFG) specializing in enterprise-scale data platforms, cloud data engineering, and distributed systems. I have architected 65+ Apache Airflow DAGs, a 3-tier Google BigQuery Lakehouse across 10+ subsidiaries, and high-throughput Python ingestion pipelines processing 120M+ records. Previously at Grab Indonesia and GoFleet (Astra & Gojek), I led large-scale cloud migrations, ETL optimization, and analytics solutions. I hold a Bachelor's degree in Informatics Engineering from Universitas Brawijaya and thrive on turning complex data challenges into reliable, scalable systems.",
+      "number_phone": "6281234474958",
+      "timeline_orientation": "horizontal"
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "b58b2996-ed89-476b-bba6-49c499f38b52",
+      "link": [
+        {
+          "github": "https://github.com/lanaahm/Machine-Learning-Exercise/tree/main/Fashion%20Product%20Images%20Classification"
+        }
+      ],
+      "image": "/thumbnails/fashion-product-classification.jpg",
+      "title": "Fashion Product Image Classification",
+      "created_at": "2026-11-27T03:43:39.506421+00:00",
+      "updated_at": "2026-11-27T06:48:02.355976+00:00",
+      "description": "Classification of fashion product Images by product category"
+    },
+    {
+      "id": "12e5c79d-b558-453c-b5ff-094c0fef4fdd",
+      "link": [
+        {
+          "github": "https://github.com/lanaahm/Machine-Learning-Exercise/tree/main/Diabetes%20Classification"
+        }
+      ],
+      "image": "/thumbnails/diabetes-classification.jpg",
+      "title": "Diabetes Classification",
+      "created_at": "2026-11-27T03:43:40.506421+00:00",
+      "updated_at": "2026-11-27T06:48:02.355976+00:00",
+      "description": "Diabetes classification using the knn algorithm, random forest, and adaboost."
+    },
+    {
+      "id": "691cc49d-b8ca-4c14-a5d5-3453b5175008",
+      "link": [
+        {
+          "github": "https://github.com/lanaahm/Machine-Learning-Exercise/tree/main/Sentiment%20Analysis%20Of%20Drug%20Reviews"
+        }
+      ],
+      "image": "/thumbnails/sentiment-analysis-drug-reviews.jpg",
+      "title": "Sentiment Analysis of Drug Reviews",
+      "created_at": "2026-11-27T03:43:41.506421+00:00",
+      "updated_at": "2026-11-27T06:48:02.355976+00:00",
+      "description": "NLP Sentiment Analysis Review based on UCI Machine learning repository dataset review"
+    },
+    {
+      "id": "e0d1578d-fb36-4ceb-97ba-ef1772e89cb2",
+      "link": [
+        {
+          "github": "https://github.com/lanaahm/Machine-Learning-Exercise/tree/main/Wind%20Power%20Prediction"
+        }
+      ],
+      "image": "/thumbnails/wind-power-prediction.jpg",
+      "title": "Wind Power Prediction",
+      "created_at": "2026-11-27T03:43:42.506421+00:00",
+      "updated_at": "2026-11-27T06:48:02.355976+00:00",
+      "description": "Wind Power Prediction Using The LSTM Algorithm, Dataset Kaggle.Com"
+    },
+    {
+      "id": "7d2071fe-58d5-42bf-974e-a6d84b7ae1a6",
+      "link": [
+        {
+          "github": "https://github.com/lanaahm/Machine-Learning-Exercise/tree/main/Rock%20Paper%20Scissors%20Images%20Clasification"
+        }
+      ],
+      "image": "/thumbnails/rock-paper-scissors-classification.jpg",
+      "title": "Rock Paper Scissors Images Clasification",
+      "created_at": "2026-11-27T03:43:43.506421+00:00",
+      "updated_at": "2026-11-27T06:48:02.355976+00:00",
+      "description": "Classification of Games Scissors, Stone and Paper"
+    },
+    {
+      "id": "e962fb1e-8d80-4031-8503-dc2cdc853497",
+      "link": [
+        {
+          "simaba-filkom.ub.ac.id": "https://simaba-filkom.ub.ac.id/"
+        }
+      ],
+      "image": "/thumbnails/website-pk2maba-filkom-2019.jpg",
+      "title": "Website PK2MABA FILKOM 2019",
+      "created_at": "2026-11-27T03:43:44.506421+00:00",
+      "updated_at": "2026-11-27T06:48:02.355976+00:00",
+      "description": "Introduction Of Campus Life Students Of Computer Science The University Of Brawijaya"
+    },
+    {
+      "id": "30e343e0-cb7c-40c9-8b1f-2319abe5cbeb",
+      "link": [
+        {
+          "google": "https://google.com/"
+        }
+      ],
+      "image": "/thumbnails/website-kampung-budaya-2019.jpg",
+      "title": "Website Kampung Budaya Brawijaya University 2019",
+      "created_at": "2026-11-27T03:43:45.506421+00:00",
+      "updated_at": "2026-11-27T06:48:02.355976+00:00",
+      "description": "\"Kampung Budaya\" is a student work program to introduce various local customs and characteristics in Indonesia."
+    },
+    {
+      "id": "3810b17e-feda-46b7-9f10-793d37c6431d",
+      "link": [
+        {
+          "bersi.ko": "https://bersi.ko.com/"
+        }
+      ],
+      "image": "/thumbnails/bersiko.jpg",
+      "title": "Bersi.ko",
+      "created_at": "2026-11-27T03:43:46.506421+00:00",
+      "updated_at": "2026-11-27T06:48:02.355976+00:00",
+      "description": "Created a dynamic website \"Bersi.ko\" to monitor the workmanship of shoe washing services"
+    },
+    {
+      "id": "c553d3be-253b-4fb1-998b-14110e30463b",
+      "link": [
+        {
+          "github": "https://github.com/lanaahm/book-store"
+        }
+      ],
+      "image": "/thumbnails/storybook.jpg",
+      "title": "Storybook",
+      "created_at": "2026-11-27T03:43:47.506421+00:00",
+      "updated_at": "2026-11-27T06:48:02.355976+00:00",
+      "description": "Created an android-based application \"Book Store\" to find a list of books and where these books are traded"
+    }
+  ],
+  "experience": [
+    {
+      "id": "857f1cc1-121a-444f-90b5-567982ecd928",
+      "title": "Apache Airflow",
+      "category": "Data Engineering & Cloud",
+      "created_at": "2026-11-27T04:03:36.788544+00:00",
+      "updated_at": "2026-11-27T04:03:35.788544+00:00"
+    },
+    {
+      "id": "3febe576-9db3-4f4c-b5dc-28920a6d1c9a",
+      "title": "Google BigQuery",
+      "category": "Data Engineering & Cloud",
+      "created_at": "2026-11-27T04:03:37.788544+00:00",
+      "updated_at": "2026-11-27T04:03:35.788544+00:00"
+    },
+    {
+      "id": "057911b0-80d4-4425-aea0-729077ccd51f",
+      "title": "Apache Spark",
+      "category": "Data Engineering & Cloud",
+      "created_at": "2026-11-27T04:03:38.788544+00:00",
+      "updated_at": "2026-11-27T04:03:35.788544+00:00"
+    },
+    {
+      "id": "37147264-902b-4a59-aaa2-f9cb2f24d4f0",
+      "title": "AWS & Azure Cloud",
+      "category": "Data Engineering & Cloud",
+      "created_at": "2026-11-27T04:03:39.788544+00:00",
+      "updated_at": "2026-11-27T04:03:35.788544+00:00"
+    },
+    {
+      "id": "a46ee1a8-c340-46b5-8a2b-65006dce0fe0",
+      "title": "FastAPI & RabbitMQ",
+      "category": "Data Engineering & Cloud",
+      "created_at": "2026-11-27T04:03:40.788544+00:00",
+      "updated_at": "2026-11-27T04:03:35.788544+00:00"
+    },
+    {
+      "id": "7b785d0e-fd28-46c0-b9ae-ba68c6056037",
+      "title": "Docker & GitLab CI/CD",
+      "category": "Data Engineering & Cloud",
+      "created_at": "2026-11-27T04:03:41.788544+00:00",
+      "updated_at": "2026-11-27T04:03:35.788544+00:00"
+    },
+    {
+      "id": "e94749bd-e602-4f28-b30e-eaaac35c35c9",
+      "title": "Python & Pandas",
+      "category": "Data Platforms & Analytics",
+      "created_at": "2026-11-27T04:03:42.788544+00:00",
+      "updated_at": "2026-11-27T04:03:35.788544+00:00"
+    },
+    {
+      "id": "84a0b711-4210-45c8-8d36-d4c6076a5665",
+      "title": "SQL & PostgreSQL",
+      "category": "Data Platforms & Analytics",
+      "created_at": "2026-11-27T04:03:43.788544+00:00",
+      "updated_at": "2026-11-27T04:03:35.788544+00:00"
+    },
+    {
+      "id": "0e245fca-a869-4fce-b6cb-3426f1ec5bd6",
+      "title": "Oracle EBS & IBM DB2",
+      "category": "Data Platforms & Analytics",
+      "created_at": "2026-11-27T04:03:44.788544+00:00",
+      "updated_at": "2026-11-27T04:03:35.788544+00:00"
+    },
+    {
+      "id": "5b313d88-f621-452f-be89-1a0f277d5ab4",
+      "title": "SQL Server & MongoDB",
+      "category": "Data Platforms & Analytics",
+      "created_at": "2026-11-27T04:03:45.788544+00:00",
+      "updated_at": "2026-11-27T04:03:35.788544+00:00"
+    },
+    {
+      "id": "83b3a18f-6889-4b20-be54-d62da271ffb9",
+      "title": "PyTorch & TensorFlow",
+      "category": "Data Platforms & Analytics",
+      "created_at": "2026-11-27T04:03:46.788544+00:00",
+      "updated_at": "2026-11-27T04:03:35.788544+00:00"
+    },
+    {
+      "id": "3577f9fa-cc80-49ad-8342-cc70b95083e1",
+      "title": "PowerBI, Tableau & Looker",
+      "category": "Data Platforms & Analytics",
+      "created_at": "2026-11-27T04:03:47.788544+00:00",
+      "updated_at": "2026-11-27T04:03:35.788544+00:00"
+    },
+    {
+      "id": "3e9059b9-1ae6-49c2-8662-db1357c10e1a",
+      "title": "React & Next.js",
+      "category": "Software Engineering",
+      "created_at": "2026-11-27T04:03:48.788544+00:00",
+      "updated_at": "2026-11-27T04:03:35.788544+00:00"
+    },
+    {
+      "id": "d6590f87-bfe2-4540-9654-43c2a9c50197",
+      "title": "TypeScript & JavaScript",
+      "category": "Software Engineering",
+      "created_at": "2026-11-27T04:03:49.788544+00:00",
+      "updated_at": "2026-11-27T04:03:35.788544+00:00"
+    },
+    {
+      "id": "d3a9289d-37d2-4c14-9be2-d4c2205d5dd1",
+      "title": "Node.js",
+      "category": "Software Engineering",
+      "created_at": "2026-11-27T04:03:50.788544+00:00",
+      "updated_at": "2026-11-27T04:03:35.788544+00:00"
+    },
+    {
+      "id": "2801cffd-82eb-4df8-b6ca-3b78a1b48895",
+      "title": "Java & Redux",
+      "category": "Software Engineering",
+      "created_at": "2026-11-27T04:03:51.788544+00:00",
+      "updated_at": "2026-11-27T04:03:35.788544+00:00"
+    },
+    {
+      "id": "ffcfe7ff-aea2-4e1a-8108-7c914c3e9c90",
+      "title": "Vue.js & Flutter",
+      "category": "Software Engineering",
+      "created_at": "2026-11-27T04:03:52.788544+00:00",
+      "updated_at": "2026-11-27T04:03:35.788544+00:00"
+    },
+    {
+      "id": "b71be123-789e-401e-bce3-f4e4783fdbbd",
+      "title": "Supabase & Firebase",
+      "category": "Software Engineering",
+      "created_at": "2026-11-27T04:03:53.788544+00:00",
+      "updated_at": "2026-11-27T04:03:35.788544+00:00"
+    }
+  ],
+  "certification": [
+    {
+      "id": "6256fc35-d5c1-491d-864f-20633c52d123",
+      "title": "Machine Learning Specialization",
+      "issuer": "Coursera",
+      "expired": "-",
+      "file_url": "https://quwjvmjsvncuuaxpwcqe.supabase.co/storage/v1/object/public/lanaahm's%20Bucket/certifications/coursera/machine-learning-specialization.pdf",
+      "obtained": "-",
+      "created_at": "2026-11-27T05:57:00.121008+00:00",
+      "updated_at": "2026-11-27T06:03:20.893508+00:00"
+    },
+    {
+      "id": "d6584fe5-0d51-401c-a579-aa044505fb39",
+      "title": "Advanced Learning Algorithms",
+      "issuer": "Coursera",
+      "expired": "-",
+      "file_url": "https://quwjvmjsvncuuaxpwcqe.supabase.co/storage/v1/object/public/lanaahm's%20Bucket/certifications/coursera/advanced-learning-algorithms.pdf",
+      "obtained": "-",
+      "created_at": "2026-11-27T05:57:01.121008+00:00",
+      "updated_at": "2026-11-27T06:03:18.034645+00:00"
+    },
+    {
+      "id": "54f1b67d-4c8a-4655-87a0-abff7ee7399c",
+      "title": "Supervised Machine Learning: Regression and Classification",
+      "issuer": "Coursera",
+      "expired": "-",
+      "file_url": "https://quwjvmjsvncuuaxpwcqe.supabase.co/storage/v1/object/public/lanaahm's%20Bucket/certifications/coursera/supervised-machine-learning-regression-and-classification.pdf",
+      "obtained": "-",
+      "created_at": "2026-11-27T05:57:02.121008+00:00",
+      "updated_at": "2026-11-27T06:03:22.228643+00:00"
+    },
+    {
+      "id": "8851e24b-d306-42ce-aac4-b874d9dfcdd8",
+      "title": "Unsupervised Learning, Recommenders, Reinforcement Learning",
+      "issuer": "Coursera",
+      "expired": "-",
+      "file_url": "https://quwjvmjsvncuuaxpwcqe.supabase.co/storage/v1/object/public/lanaahm's%20Bucket/certifications/coursera/unsupervised-learning-recommenders-reinforcement-learning.pdf",
+      "obtained": "-",
+      "created_at": "2026-11-27T05:57:03.121008+00:00",
+      "updated_at": "2026-11-27T06:03:23.768971+00:00"
+    },
+    {
+      "id": "4ac8e18f-ad88-469f-bfd5-ddcddf754eba",
+      "title": "Google Cloud",
+      "issuer": "Coursera",
+      "expired": "-",
+      "file_url": "https://quwjvmjsvncuuaxpwcqe.supabase.co/storage/v1/object/public/lanaahm's%20Bucket/certifications/coursera/google-cloud.pdf",
+      "obtained": "-",
+      "created_at": "2026-11-27T05:57:04.121008+00:00",
+      "updated_at": "2026-11-27T06:03:19.465965+00:00"
+    },
+    {
+      "id": "541b358b-4ebf-407b-8b77-efc15c7b9c63",
+      "title": "Data Engineer",
+      "issuer": "DataCamp",
+      "expired": "-",
+      "file_url": "https://quwjvmjsvncuuaxpwcqe.supabase.co/storage/v1/object/public/lanaahm's%20Bucket/certifications/datacamp/data-engineer.pdf",
+      "obtained": "-",
+      "created_at": "2026-11-27T05:57:05.121008+00:00",
+      "updated_at": "2026-11-27T06:03:26.558887+00:00"
+    },
+    {
+      "id": "f4efdb01-7e6d-4790-80b7-fe18c1d34bc3",
+      "title": "Data Analyst with Python",
+      "issuer": "DataCamp",
+      "expired": "-",
+      "file_url": "https://quwjvmjsvncuuaxpwcqe.supabase.co/storage/v1/object/public/lanaahm's%20Bucket/certifications/datacamp/data-analyst-with-python.pdf",
+      "obtained": "-",
+      "created_at": "2026-11-27T05:57:06.121008+00:00",
+      "updated_at": "2026-11-27T06:03:25.200081+00:00"
+    },
+    {
+      "id": "15f5d2dd-cf0d-4955-8191-896b6432b79b",
+      "title": "ETL in Python",
+      "issuer": "DataCamp",
+      "expired": "-",
+      "file_url": "https://quwjvmjsvncuuaxpwcqe.supabase.co/storage/v1/object/public/lanaahm's%20Bucket/certifications/datacamp/etl-in-python.pdf",
+      "obtained": "-",
+      "created_at": "2026-11-27T05:57:07.121008+00:00",
+      "updated_at": "2026-11-27T06:03:28.26035+00:00"
+    },
+    {
+      "id": "58463796-fa2f-4ea9-bbde-210f51e3b8a8",
+      "title": "Python Programmer",
+      "issuer": "DataCamp",
+      "expired": "-",
+      "file_url": "https://quwjvmjsvncuuaxpwcqe.supabase.co/storage/v1/object/public/lanaahm's%20Bucket/certifications/datacamp/python-programmer.pdf",
+      "obtained": "-",
+      "created_at": "2026-11-27T05:57:08.121008+00:00",
+      "updated_at": "2026-11-27T06:03:29.673209+00:00"
+    },
+    {
+      "id": "8c801abf-5a95-4a52-8a90-9a5cb93998ac",
+      "title": "Architecting on AWS (Membangun Arsitektur Cloud di AWS)",
+      "issuer": "Dicoding",
+      "expired": "-",
+      "file_url": "https://quwjvmjsvncuuaxpwcqe.supabase.co/storage/v1/object/public/lanaahm's%20Bucket/certifications/dicoding/architecting-on-aws-membangun-arsitektur-cloud-di-aws.pdf",
+      "obtained": "-",
+      "created_at": "2026-11-27T05:57:09.121008+00:00",
+      "updated_at": "2026-11-27T06:03:31.56216+00:00"
+    },
+    {
+      "id": "f13b4efe-3fc4-41ea-aab2-4a41cf6cc0d3",
+      "title": "Cloud Practitioner Essentials (Belajar Dasar AWS Cloud)",
+      "issuer": "Dicoding",
+      "expired": "-",
+      "file_url": "https://quwjvmjsvncuuaxpwcqe.supabase.co/storage/v1/object/public/lanaahm's%20Bucket/certifications/dicoding/cloud-practitioner-essentials-belajar-dasar-aws-cloud.pdf",
+      "obtained": "-",
+      "created_at": "2026-11-27T05:57:10.121008+00:00",
+      "updated_at": "2026-11-27T06:03:45.012173+00:00"
+    },
+    {
+      "id": "b885dbfb-0a44-422a-95ce-9316ad028d8a",
+      "title": "Machine Learning Terapan",
+      "issuer": "Dicoding",
+      "expired": "-",
+      "file_url": "https://quwjvmjsvncuuaxpwcqe.supabase.co/storage/v1/object/public/lanaahm's%20Bucket/certifications/dicoding/machine-learning-terapan.pdf",
+      "obtained": "-",
+      "created_at": "2026-11-27T05:57:11.121008+00:00",
+      "updated_at": "2026-11-27T06:03:46.606454+00:00"
+    },
+    {
+      "id": "a89110d2-abba-4b7c-93b1-3539ca38f76d",
+      "title": "Belajar Pengembangan Machine Learning",
+      "issuer": "Dicoding",
+      "expired": "-",
+      "file_url": "https://quwjvmjsvncuuaxpwcqe.supabase.co/storage/v1/object/public/lanaahm's%20Bucket/certifications/dicoding/belajar-pengembangan-machine-learning.pdf",
+      "obtained": "-",
+      "created_at": "2026-11-27T05:57:12.121008+00:00",
+      "updated_at": "2026-11-27T06:03:43.396688+00:00"
+    },
+    {
+      "id": "4e176a16-e0c4-4356-8f2f-246737ec59ec",
+      "title": "Belajar Machine Learning untuk Pemula",
+      "issuer": "Dicoding",
+      "expired": "-",
+      "file_url": "https://quwjvmjsvncuuaxpwcqe.supabase.co/storage/v1/object/public/lanaahm's%20Bucket/certifications/dicoding/belajar-machine-learning-untuk-pemula.pdf",
+      "obtained": "-",
+      "created_at": "2026-11-27T05:57:13.121008+00:00",
+      "updated_at": "2026-11-27T06:03:38.226394+00:00"
+    },
+    {
+      "id": "0e0abe93-9d67-4c06-9ce1-79befaff5db3",
+      "title": "Belajar Membuat Aplikasi Back-End untuk Pemula",
+      "issuer": "Dicoding",
+      "expired": "-",
+      "file_url": "https://quwjvmjsvncuuaxpwcqe.supabase.co/storage/v1/object/public/lanaahm's%20Bucket/certifications/dicoding/belajar-membuat-aplikasi-back-end-untuk-pemula.pdf",
+      "obtained": "-",
+      "created_at": "2026-11-27T05:57:14.121008+00:00",
+      "updated_at": "2026-11-27T06:03:39.922486+00:00"
+    },
+    {
+      "id": "6acd793b-5f21-452f-8985-87525c5e3487",
+      "title": "Menjadi Linux System Administrator",
+      "issuer": "Dicoding",
+      "expired": "-",
+      "file_url": "https://quwjvmjsvncuuaxpwcqe.supabase.co/storage/v1/object/public/lanaahm's%20Bucket/certifications/dicoding/menjadi-linux-system-administrator.pdf",
+      "obtained": "-",
+      "created_at": "2026-11-27T05:57:15.121008+00:00",
+      "updated_at": "2026-11-27T06:03:49.977228+00:00"
+    },
+    {
+      "id": "57cd6d62-19ad-4ea9-af39-1cb876bed6f2",
+      "title": "Belajar Dasar Visualisasi Data",
+      "issuer": "Dicoding",
+      "expired": "-",
+      "file_url": "https://quwjvmjsvncuuaxpwcqe.supabase.co/storage/v1/object/public/lanaahm's%20Bucket/certifications/dicoding/belajar-dasar-visualisasi-data.pdf",
+      "obtained": "-",
+      "created_at": "2026-11-27T05:57:16.121008+00:00",
+      "updated_at": "2026-11-27T06:03:36.626869+00:00"
+    },
+    {
+      "id": "2ef80fee-cc05-44df-b3cd-6357580df626",
+      "title": "Memulai Pemrograman Dengan Python",
+      "issuer": "Dicoding",
+      "expired": "-",
+      "file_url": "https://quwjvmjsvncuuaxpwcqe.supabase.co/storage/v1/object/public/lanaahm's%20Bucket/certifications/dicoding/memulai-pemrograman-dengan-python.pdf",
+      "obtained": "-",
+      "created_at": "2026-11-27T05:57:17.121008+00:00",
+      "updated_at": "2026-11-27T06:03:48.354339+00:00"
+    },
+    {
+      "id": "c44359cd-2f56-4d46-bd48-c52f1c11f1d7",
+      "title": "Belajar Dasar Pemrograman JavaScript",
+      "issuer": "Dicoding",
+      "expired": "-",
+      "file_url": "https://quwjvmjsvncuuaxpwcqe.supabase.co/storage/v1/object/public/lanaahm's%20Bucket/certifications/dicoding/belajar-dasar-pemrograman-javascript.pdf",
+      "obtained": "-",
+      "created_at": "2026-11-27T05:57:18.121008+00:00",
+      "updated_at": "2026-11-27T06:03:34.799372+00:00"
+    },
+    {
+      "id": "880ef18c-4f16-448b-91b9-bf798916c76d",
+      "title": "Belajar Dasar Git dengan GitHub",
+      "issuer": "Dicoding",
+      "expired": "-",
+      "file_url": "https://quwjvmjsvncuuaxpwcqe.supabase.co/storage/v1/object/public/lanaahm's%20Bucket/certifications/dicoding/belajar-dasar-git-dengan-github.pdf",
+      "obtained": "-",
+      "created_at": "2026-11-27T05:57:19.121008+00:00",
+      "updated_at": "2026-11-27T06:03:33.187518+00:00"
+    },
+    {
+      "id": "6cd5943d-1189-4ed6-9dcb-e390be144017",
+      "title": "Belajar Membuat Aplikasi Kognitif",
+      "issuer": "Dicoding",
+      "expired": "-",
+      "file_url": "https://quwjvmjsvncuuaxpwcqe.supabase.co/storage/v1/object/public/lanaahm's%20Bucket/certifications/dicoding/belajar-membuat-aplikasi-kognitif.pdf",
+      "obtained": "-",
+      "created_at": "2026-11-27T05:57:20.121008+00:00",
+      "updated_at": "2026-11-27T06:03:41.782653+00:00"
+    },
+    {
+      "id": "8b9fbc21-36ce-407a-9b76-afe283671a09",
+      "title": "Problem Solving (Intermediate)",
+      "issuer": "HackerRank",
+      "expired": "-",
+      "file_url": "https://quwjvmjsvncuuaxpwcqe.supabase.co/storage/v1/object/public/lanaahm's%20Bucket/certifications/hackerrank/problem-solving-intermediate.png",
+      "obtained": "-",
+      "created_at": "2026-11-27T05:57:21.121008+00:00",
+      "updated_at": "2026-11-27T06:03:56.336111+00:00"
+    },
+    {
+      "id": "2444c0f3-458e-4820-97f4-7ddadb0a645b",
+      "title": "SQL (Basic)",
+      "issuer": "HackerRank",
+      "expired": "-",
+      "file_url": "https://quwjvmjsvncuuaxpwcqe.supabase.co/storage/v1/object/public/lanaahm's%20Bucket/certifications/hackerrank/sql-basic.png",
+      "obtained": "-",
+      "created_at": "2026-11-27T05:57:22.121008+00:00",
+      "updated_at": "2026-11-27T06:04:01.400587+00:00"
+    },
+    {
+      "id": "99450f33-f3c6-400b-81b1-5b1dc6035d32",
+      "title": "Python (Basic)",
+      "issuer": "HackerRank",
+      "expired": "-",
+      "file_url": "https://quwjvmjsvncuuaxpwcqe.supabase.co/storage/v1/object/public/lanaahm's%20Bucket/certifications/hackerrank/python-basic.png",
+      "obtained": "-",
+      "created_at": "2026-11-27T05:57:23.121008+00:00",
+      "updated_at": "2026-11-27T06:03:58.787837+00:00"
+    },
+    {
+      "id": "3c61952f-d553-4487-985e-fe2528832bc1",
+      "title": "Java (Basic)",
+      "issuer": "HackerRank",
+      "expired": "-",
+      "file_url": "https://quwjvmjsvncuuaxpwcqe.supabase.co/storage/v1/object/public/lanaahm's%20Bucket/certifications/hackerrank/java-basic.png",
+      "obtained": "-",
+      "created_at": "2026-11-27T05:57:24.121008+00:00",
+      "updated_at": "2026-11-27T06:03:53.189425+00:00"
+    },
+    {
+      "id": "61409b9f-4433-49da-a564-c16834d1bf58",
+      "title": "Python",
+      "issuer": "Kaggle",
+      "expired": "-",
+      "file_url": "https://quwjvmjsvncuuaxpwcqe.supabase.co/storage/v1/object/public/lanaahm's%20Bucket/certifications/kaggle/maulana-ahmad-maliki-python.png",
+      "obtained": "-",
+      "created_at": "2026-11-27T05:57:25.121008+00:00",
+      "updated_at": "2026-11-27T06:04:02.573337+00:00"
+    }
+  ],
+  "employee_history": [
+    {
+      "id": "6b58d5a9-9cd2-4518-bf6b-e3737b0ac0dd",
+      "focus": "Data Engineering • Analytics • Finance Data • Management Information System (MIS)",
+      "company": "IFG (Indonesia Finance Group) — Data Engineer",
+      "end_work": "Present",
+      "location": "South Jakarta, Indonesia",
+      "created_at": "2026-11-27T03:58:28.704326+00:00",
+      "highlights": [
+        "Architected 65+ production Apache Airflow DAGs and a 3-tier Google BigQuery Lakehouse (Datalake, Unified DWH, and Datamart), consolidating cross-functional financial, underwriting, investment, and actuarial data across 10+ IFG Holding subsidiaries into 270+ standardized BigQuery tables.",
+        "Engineered high-throughput Python ingestion connectors for Oracle EBS, IBM DB2 (isolation & custom JayDeBeApi cursor streaming), PostgreSQL, SQL Server, and SAS (PSAK 117/74) using chunked batch streaming and garbage collection, reliably processing 120M+ General Ledger and subledger records while eliminating 100% of Out-of-Memory (OOM) task failures.",
+        "Developed an event-driven orchestration middleware (MIO) using FastAPI and RabbitMQ across 23 Single Active Consumer (SAC) lock-group queues with Dead Letter Queue (DLQ) recovery CLI tools, reducing BigQuery 409 Conflict concurrent DML lock errors to zero across 180+ automated SQL transformation pipelines.",
+        "Modeled 180+ complex BigQuery SQL transformations for Consolidated Trial Balance, Financial Statements (MRP 104 & PSAK 117), Underwriting P&L by Line of Business (LOB) & RKAP, Actuarial Claim ECL, and Investment Yield, achieving 100% reconciliation accuracy (0.00 variance) against source Oracle EBS GL_BALANCES across 34+ historical financial periods.",
+        "Automated end-to-end Data Quality (DQ) reconciliation pipelines, a declarative YAML schema migration engine, PII sensitivity governance, and GitLab CI/CD validation workflows, executing 250+ zero-downtime BigQuery schema migrations and cutting manual data validation and deployment overhead by >80%."
+      ],
+      "start_work": "2026-04",
+      "updated_at": "2026-11-27T06:55:04.335829+00:00"
+    },
+    {
+      "id": "7085bb89-f181-441a-929c-4afe6d379b85",
+      "focus": "Analytics • Finance Data • BI • OVO Migration Team & Operational Excellence",
+      "company": "Grab Indonesia (PT Grab Teknologi Indonesia) — Data Engineer",
+      "end_work": "2026-04",
+      "location": "South Jakarta, Indonesia",
+      "created_at": "2026-11-27T03:58:29.704326+00:00",
+      "highlights": [
+        "Migration of the OVO project from GCP to AWS, ensuring seamless transition using Spark, Apache Airflow, and Lighthouse.",
+        "Oversaw the migration of 3 Indonesian regulatory reports including PUSDAFIL (Pusat Data Fintech Landing), FDC (Finance Data Center), and PEFINDO (PT Pemeringkat Efek Indonesia) ensuring data integrity.",
+        "Migrated 32 OVO non-regulatory reports to AWS with optimized performance and reliability.",
+        "Managed L1 Grab Support analytic compliance."
+      ],
+      "start_work": "2025-04",
+      "updated_at": "2026-11-27T06:55:04.335829+00:00"
+    },
+    {
+      "id": "7de34fea-0cb3-48b6-8ec7-a9a1a03775fc",
+      "focus": "Data Warehouse • Data Lakehouse • Cloud Optimization • BI Visualization",
+      "company": "GoFleet by Astra & Gojek (PT SOLUSI MOBILITAS BANGSA) — Data Engineer",
+      "end_work": "2025-03",
+      "location": "South Jakarta, Indonesia",
+      "created_at": "2026-11-27T03:58:30.704326+00:00",
+      "highlights": [
+        "Optimized cloud storage usage across the data warehouse and data lakehouse by 32%.",
+        "Improved data warehouse runtime query execution with a 28.45% reduction.",
+        "Maintained and developed 45+ data warehouse ETL pipelines.",
+        "Managed and developed 40+ tables across 4 databases.",
+        "Reduced Azure cloud computing service load by 9.31%.",
+        "Developed 20+ analytical dashboard visualizations.",
+        "Received the Favorite Champion Award for innovation proposals from the Board of Directors (BoD)."
+      ],
+      "start_work": "2023-05",
+      "updated_at": "2026-11-27T06:55:04.335829+00:00"
+    },
+    {
+      "id": "b47fd0bd-11aa-4b92-99e8-2f455be6d1af",
+      "focus": "Cloud-AI Technology • Smart Multi-Culture Farming",
+      "company": "FILKOM University of Brawijaya — Research Assistant",
+      "end_work": "2022-10",
+      "location": "Malang, Indonesia",
+      "created_at": "2026-11-27T03:58:31.704326+00:00",
+      "highlights": [
+        "Participated in the development of the Smart Multi-Culture Farming project based on Cloud-AI Technology within a 6-person team of lecturers and students.",
+        "Created 2 training materials and tutorials for Smart Multi-Culture Farming using solar energy.",
+        "Led simulations and documentation of the Smart Multi-Culture Farming system attended by 30 stakeholders."
+      ],
+      "start_work": "2022-08",
+      "updated_at": "2026-11-27T06:55:04.335829+00:00"
+    },
+    {
+      "id": "1f13a178-ec8d-4cde-b69f-c9029fc30bb0",
+      "focus": "Business Research • Data Analysis • Machine Learning",
+      "company": "Logee Trans (PT Logee Transportation) — Data Analyst",
+      "end_work": "2021-09",
+      "location": "South Jakarta, Indonesia",
+      "created_at": "2026-11-27T03:58:32.704326+00:00",
+      "highlights": [
+        "Supported business research with data analysis trends for an operations team of 4 people.",
+        "Performed recurring data analysis and visualization for company research every 3 days.",
+        "Created a shipping price prediction model with CatBoost, achieving an R2 score of 91%."
+      ],
+      "start_work": "2021-07",
+      "updated_at": "2026-11-27T06:55:04.335829+00:00"
+    }
+  ]
+}

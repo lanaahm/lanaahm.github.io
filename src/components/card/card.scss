@@ -7,6 +7,9 @@
   box-shadow: $dropdown-box-shadow;
   border-radius: $borderRadius;
   color: $color-text-light;
+  width: 100%;
+  min-width: 0;
+  overflow: hidden;
 
   &__header {
     margin: 16px;
